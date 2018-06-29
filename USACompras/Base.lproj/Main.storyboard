@@ -319,6 +319,9 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jca-8i-OQM">
                                         <rect key="frame" x="306" y="106" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="changeIof:" destination="tBQ-ui-plV" eventType="valueChanged" id="df6-Kx-fyB"/>
+                                        </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total em reais" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzO-4o-4JT">
                                         <rect key="frame" x="20" y="164" width="117.5" height="20.5"/>
@@ -407,7 +410,6 @@
                         <outlet property="lbStateTaxes" destination="x3A-M8-8Wl" id="zx1-1Q-zmJ"/>
                         <outlet property="lbStateTaxesDescription" destination="DZX-Zh-w3U" id="vLI-9S-DB4"/>
                         <outlet property="swCreditCard" destination="jca-8i-OQM" id="IeO-Fq-fzk"/>
-                        <outlet property="tfStateTaxes" destination="Kv0-x8-EOD" id="2fp-Sn-tc6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="93V-dK-UbZ" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -29,11 +29,11 @@ class TaxesViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-       // calculateTaxes()
+        calculateTaxes()
     }
     
     @IBAction func changeIof(_ sender: UISwitch) {
-      //  calculateTaxes()
+        calculateTaxes()
     }
     
     
